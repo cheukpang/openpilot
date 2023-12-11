@@ -1333,6 +1333,15 @@ FW_VERSIONS = {
     ],
   },
   CAR.RIDGELINE: {
+    (Ecu.programmedFuelInjection, 0x18DA10F1, None): [
+      b'37805-5MJ-CA20\x00\x00',
+    ],
+    (Ecu.shiftByWire, 0x18DA0BF1, None): [
+      b'54008-TG7-A530\x00\x00',
+    ],
+    (Ecu.transmission, 0x18DA1EF1, None): [
+      b'28101-5MK-C000\x00\x00',
+    ],
     (Ecu.eps, 0x18da30f1, None): [
       b'39990-T6Z-A020\x00\x00',
       b'39990-T6Z-A030\x00\x00',
